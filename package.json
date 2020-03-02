@@ -1,0 +1,21 @@
+{
+  "name": "@imflavio/scripts",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "repository": "git@github.com:imflavio/scripts.git",
+  "author": "Flávio Carvalho <flavio@imflavio.com>",
+  "prettier": "@imflavio/prettier-config",
+  "bin": {
+    "flavio-scripts": "./bin/index.js"
+  },
+  "scripts": {
+    "format:all": "node ./bin/index.js --format:all",
+    "format:check": "node ./bin/index.js --format:check",
+    "ts:check": "node ./bin/index.js --ts:check"
+  },
+  "dependencies": {
+    "@imflavio/prettier-config": "1.0.0",
+    "commander": "4.1.1",
+    "shelljs": "0.8.3"
+  }
+}
