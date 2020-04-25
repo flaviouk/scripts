@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@imflavio/prettier-config": "1.0.0",
-    "commander": "4.1.1",
+    "commander": "5.1.0",
     "shelljs": "0.8.3"
   }
 }
